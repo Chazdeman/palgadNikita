@@ -34,7 +34,7 @@ def otsing_nimi_jargi(inimesed:list,palk:list):
                 print(nimi, palk)
         else:
             t="Ei ole nimi kirjas"
-    return t
+     return t
 
 def suurim(i:list,p:list):
     """
@@ -52,15 +52,15 @@ def keskmine(i:list,p:list):
     summa=0
     for palk in p:
         summa+=p
-    kesk=summa/len(p)
-    print(kesk)
-    vahe=0
-    if 0<=p.index(kesk)<len(p)-1:
-        kesk=i[p.index(kesk)]
-        return kesk
-    else:
-        kesk="Puudub"
-        return kesk
+        kesk=summa/len(p)
+        print(kesk)
+        vahe=0
+        if 0<=p.index(kesk)<len(p)-1:
+            kesk=i[p.index(kesk)]
+            return kesk
+        else:
+            kesk="Puudub"
+            return kesk
 
 """
 def sur():

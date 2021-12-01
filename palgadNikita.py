@@ -8,7 +8,7 @@ while 1:
     print("Vajuta nuppu==>")
 
     if read_key()=="1":
-        summa=keskmine(inimesed,palgad)
+        kesk=keskmine(inimesed,palgad)
         print("Keskmine palk on ",summa)
 
     elif read_key()=="2":
