@@ -8,8 +8,9 @@ def loe_failist_listisse(file:str)->list:
     file.close()
     return list_
 
-def lisa(palk,inimesed):
-    """ Добавляет человека и его зарплату
+def lisa(palk:list,inimesed:list):
+    """ Lisab inimese ja tema palga,Aga .txt faili ei lisa
+
     """
     a=input("Sissesta nimi=>")
     inimesed.append(a)
