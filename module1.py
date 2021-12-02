@@ -32,9 +32,10 @@ def otsing_nimi_jargi(inimesed:list,palk:list):
                 b+=k+1
                 t.append(nimi+str(palk))
                 print(nimi, palk)
+            break
         else:
             t="Ei ole nimi kirjas"
-     return t
+    return t
 
 def suurim(i:list,p:list):
     """ 
