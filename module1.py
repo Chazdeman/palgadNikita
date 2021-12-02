@@ -37,7 +37,7 @@ def otsing_nimi_jargi(inimesed:list,palk:list):
      return t
 
 def suurim(i:list,p:list):
-    """
+    """ 
     :rtype: str,str:
     """
     suurim=max(p)

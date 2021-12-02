@@ -28,7 +28,6 @@ while 1:
         print(palgad,inimesed)
 
 
-
         
 
 
